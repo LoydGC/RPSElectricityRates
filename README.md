@@ -2,7 +2,8 @@ Project Overview
 This analysis explores the relationship between state-level Renewable Portfolio Standards (RPS) policies and electricity prices in the United States from 2010-2023. Using data from multiple sources including the U.S. Energy Information Administration (EIA), Bureau of Economic Analysis (BEA), and U.S. Census Bureau, I investigate whether RPS mandates affect electricity costs for consumers.
 
 
-Research Questions
+Research Questions:
+
 Do states with active RPS policies exhibit different electricity price distributions compared to states without RPS?
 
 Is monthly electricity price volatility higher in state-years with RPS policies compared to those without?
@@ -19,16 +20,16 @@ This analysis combines five data sources to examine electricity prices and renew
 1. Electricity Market Retail Sales Data (EIA API)
 Monthly retail electricity statistics including price (cents/kWh), sales volume, revenue, and customer counts for all 50 states plus D.C., broken down by sector (residential, commercial, industrial, transportation).
 
-2. Renewable Portfolio Standards (RPS) Policy Data (Lawrence Berkeley National Laboratory)
+3. Renewable Portfolio Standards (RPS) Policy Data (Lawrence Berkeley National Laboratory)
 State-level requirements for renewable energy generation, showing which states have RPS policies and their target percentages by year. I created a binary indicator for whether each state had an active RPS policy.
 
-3. Economic Data (Bureau of Economic Analysis)
+4. Economic Data (Bureau of Economic Analysis)
 State GDP figures used to calculate GDP per capita, which serves as a proxy for state wealth and cost of living.
 
-4. Population Data (U.S. Census)
+5. Population Data (U.S. Census)
 Annual state population estimates from the American Community Survey 5-Year Estimates used to calculate GDP per capita.
 
-5. CPI Data (Consumer Price Index Python Library)
+6. CPI Data (Consumer Price Index Python Library)
 Consumer Price Index (CPI) data to adjust electricity prices for inflation, ensuring comparability over time.
 
 Final Dataset:
